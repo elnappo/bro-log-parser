@@ -15,6 +15,8 @@ def _bro_types_mapping(separator_set):
         "bool": bool,
         "enum": str,
         "interval": float,
+        "vector[string]": str,
+        "vector[interval]": float,
         "set[string]": lambda string_set: [str(set_item) for set_item in string_set.split(separator_set)],
         "set[addr]": lambda addr_set: [ip_address(set_item) for set_item in addr_set.split(separator_set)],
         "set[enum]": lambda enum_set: [str(set_item) for set_item in enum_set.split(separator_set)],
