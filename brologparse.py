@@ -12,7 +12,7 @@ def _bro_types_mapping(separator_set):
         "addr": ip_address,
         "port": int,
         "count": int,
-        "bool": bool,
+        "bool": lambda value: True if value == "T" else False if value == "F" else None,
         "enum": str,
         "interval": float,
         "vector[string]": str,
