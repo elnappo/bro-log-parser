@@ -1,7 +1,9 @@
 # Bro log parser
+[![Maintainability](https://api.codeclimate.com/v1/badges/680163011be7d7903c0f/maintainability)](https://codeclimate.com/github/elnappo/bro-log-parser/maintainability)
+
 Simple logfile parser for [Bro IDS](https://www.bro.org/). This library parses and transforms entries 
 in a logfile created by the [ASCII Writer](https://www.bro.org/sphinx/frameworks/logging.html#ascii-writer)
-into a dynamically generated namedtuple. Fields are converted into native python data types.
+into a dynamically generated namedtuple. Fields are converted into native Python data types.
 
 ## Requirements
 * python3
@@ -9,10 +11,15 @@ into a dynamically generated namedtuple. Fields are converted into native python
 ## Install
     python3 setup.py install
 
+## Tests
+    pytest
+    # OR
+    python3 setup.py test
+
 ## Example
 ```python
->>> from brologparse import parse_log
->>> for entry in parse_log("conn.log"):
+>>> from brologparse import parse_log_file
+>>> for entry in parse_log_file("conn.log"):
 ...     # entry._fields: Tuple of strings listing the field names
 ...     # entry._asdict(): Return a new OrderedDict which maps field names to their corresponding values
 ...     print(entry)

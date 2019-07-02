@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2019-03-06-11-10-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1295981559.221376	C17uAh2HotHZ9xIQgf	192.168.3.131	49673	72.14.213.18	443	TCP_seq_underflow_or_misorder	-	F	bro
+1295981559.221376	C17uAh2HotHZ9xIQgf	192.168.3.131	49673	72.14.213.18	443	TCP_ack_underflow_or_misorder	-	F	bro
+1295981569.024554	CtsQRd3CJGARFWdPVl	192.168.3.131	55972	207.46.216.54	80	window_recision	-	F	bro
+1295981569.752850	CSztGDRdNyNNkJUn2	192.168.3.131	55958	65.55.239.163	80	window_recision	-	F	bro
+#close	2019-03-06-11-10-14

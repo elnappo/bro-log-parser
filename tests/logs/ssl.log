@@ -1,0 +1,85 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2019-03-06-11-10-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	cert_chain_fuids	client_cert_chain_fuids	subject	issuer	client_subject	client_issuer
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	vector[string]	vector[string]	string	string	string	string
+1295981542.947575	CTpMvr1ZzGP3wtmPBi	192.168.3.131	52152	72.14.213.147	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	www.google.com	F	-	-	T	FKUe1HBxrMXi0nI96,FEOlzByR74WxNQBy3	(empty)	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Thawte SGC CA,O=Thawte Consulting (Pty) Ltd.,C=ZA	-	-
+1295981562.291706	C1EMm621bzfYbNueT	192.168.3.131	52209	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	T	-	-	T	-	-	-	-	-	-
+1295981562.291578	CUtoCb1hfxUFCxcj61	192.168.3.131	52208	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	T	-	-	T	-	-	-	-	-	-
+1295981562.295108	C3QfdF3hrXo9QYrvM4	192.168.3.131	52211	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	T	-	-	T	-	-	-	-	-	-
+1295981562.294978	C5b4g6Wj2hnLcdQWa	192.168.3.131	52210	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	T	-	-	T	-	-	-	-	-	-
+1295981562.340039	CkaLnA48Wr9wkd3Rs1	192.168.3.131	52212	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	T	-	-	T	-	-	-	-	-	-
+1295981562.344790	CG0xHo37x4AzbvmFW3	192.168.3.131	52213	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	T	-	-	T	-	-	-	-	-	-
+1295981562.345601	Cki8HB4gXeHWL35F0f	192.168.3.131	52214	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	T	-	-	T	-	-	-	-	-	-
+1295981562.349878	CMzt9m5S41eLnwnwh	192.168.3.131	52215	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	T	-	-	T	-	-	-	-	-	-
+1295981562.241644	CBsSig3mntLIqFk76c	192.168.3.131	52201	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	F	-	-	F	FCCPGv2bn3LUUkpLxj,F8ARyn1iHYmOqSC1uj	(empty)	-	-	-	-
+1295981562.242581	C25NjmKn3KlWFRMrh	192.168.3.131	52203	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	F	-	-	F	F672iG1WzJYTizE5ih,F5yHSuhltmZl78Pga	(empty)	-	-	-	-
+1295981562.244018	C9yfQO2X2UwLtrU1ff	192.168.3.131	52204	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	F	-	-	F	F5q51l1jpti1yiWHi5,FkaURi1HuCU8VRDE5k	(empty)	-	-	-	-
+1295981562.244884	CTNHlb3sEt2V40xUEe	192.168.3.131	52205	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	F	-	-	F	F4nA454d5egJqDb1t1,FtzFSf20VJsIb5nsae	(empty)	-	-	-	-
+1295981562.245030	CVAR6mHYhuBYoJuIc	192.168.3.131	52206	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	F	-	-	F	FvzxBT1tF0t5m4MmXj,FvIFxw2OeZbnxBkozl	(empty)	-	-	-	-
+1295981562.289163	CflqmFQ1PHwkkJifj	192.168.3.131	52207	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	F	-	-	F	Fj6NkXtaNSt2sZrdc,FLixw84RNxpjKxEltj	(empty)	-	-	-	-
+1295981642.779980	Cb0ELl4TR5oV0hgz2	172.16.255.1	10622	147.31.122.1	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	F	-	-	F	-	-	-	-	-	-
+1295981653.057358	CotdAY6zwbqE6Hjsb	192.168.3.131	52399	72.14.213.132	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	ode25pfjgmvpquh3b1oqo31ti5ibg5fr-a-calendar-opensocial.googleusercontent.com	F	-	-	T	F8B8Ec3rrKbvA7sx32,FQ1ne729cX26CnyVZ2	(empty)	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	-	-
+1295981653.172150	COFXy22wsmdCDcFxx6	192.168.3.131	52402	72.14.213.132	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	www-calendar-opensocial.googleusercontent.com	F	-	-	T	FZSeq48kCsKFjt685,FTTe7M2VwOmnMCcR9b	(empty)	CN=*.googleusercontent.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	-	-
+1295981654.273831	Ca5Xei3bCxW80Dtbjd	172.16.255.1	10639	204.9.163.181	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	channel.skype.com	F	-	-	T	FLWKEv1B6v6uFT143f,F9WvHy22ueluOnC2c6	(empty)	CN=*.skype.com,O=Skype Technologies SA,L=Luxembourg,ST=Luxembourg,C=LU	CN=GlobalSign Organization Validation CA,O=GlobalSign,OU=Organization Validation CA	-	-
+1295981655.292821	CDaLhSfrreapGvgQ2	172.16.255.1	10641	204.9.163.181	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	channel.skype.com	F	-	-	T	F1cTUE1fGkwwAGZYE3,F7UvMq2Qk9i6iCe6hd	(empty)	CN=*.skype.com,O=Skype Technologies SA,L=Luxembourg,ST=Luxembourg,C=LU	CN=GlobalSign Organization Validation CA,O=GlobalSign,OU=Organization Validation CA	-	-
+1295981655.294118	CaP1jy1fzvddrloby1	172.16.255.1	10643	204.9.163.181	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	channel.skype.com	F	-	-	T	FwwEHt3hNhdZHK6Z39,FosYPjLWbbuOFKKgc	(empty)	CN=*.skype.com,O=Skype Technologies SA,L=Luxembourg,ST=Luxembourg,C=LU	CN=GlobalSign Organization Validation CA,O=GlobalSign,OU=Organization Validation CA	-	-
+1295981655.293028	CdSX2vtRq6AhDXuLc	172.16.255.1	10642	204.9.163.181	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	channel.skype.com	F	-	-	T	FWHAFX1TRRJSLjAP6h,FTSQZf2N44d9itLNB4	(empty)	CN=*.skype.com,O=Skype Technologies SA,L=Luxembourg,ST=Luxembourg,C=LU	CN=GlobalSign Organization Validation CA,O=GlobalSign,OU=Organization Validation CA	-	-
+1295981655.298683	CkcQcz1Pbb488vGG22	172.16.255.1	10640	204.9.163.181	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	channel.skype.com	F	-	-	T	FbbiA21Wdf2BivTog3,FrQMzw37v0hDVm3nVk	(empty)	CN=*.skype.com,O=Skype Technologies SA,L=Luxembourg,ST=Luxembourg,C=LU	CN=GlobalSign Organization Validation CA,O=GlobalSign,OU=Organization Validation CA	-	-
+1295981656.009208	CemOId2zAfeWyTCrLa	10.0.2.15	2526	65.54.186.19	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FdMC4yMMrP4vWFK59,FvsKes1YlNeOuzBlq3,FzjJg82BNY4b04MMW2	(empty)	CN=login.live.com,OU=Passport,O=Microsoft Corporation,street=One Microsoft Way,L=Redmond,ST=Washington,postalCode=98052,C=US,serialNumber=600413485,businessCategory=V1.0\\, Clause 5.(b),jurisdictionST=Washington,jurisdictionC=US	CN=VeriSign Class 3 Extended Validation SSL CA,OU=Terms of use at https://www.verisign.com/rpa (c)06,OU=VeriSign Trust Network,O=VeriSign\\, Inc.,C=US	-	-
+1295981657.482773	CwT5yc39UycaCDeOvb	172.16.255.1	10646	184.85.226.161	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	apps.skype.com	F	-	-	T	FNoVwj4g0uWTfbFU3i,F59Y2e2R2ldHHMSSad	(empty)	CN=*.skype.com,ST=Luxembourg,OU=Site Operations,O=Skype Technologies SA,L=Luxembourg,C=LU	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	-	-
+1295981657.649501	CMHSWUCXDKBDv2zdl	172.16.255.1	10647	184.85.226.161	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	apps.skype.com	T	-	-	T	-	-	-	-	-	-
+1295981658.257578	CM3oK622pLRJAlMNG9	172.16.255.1	10649	184.85.226.161	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	apps.skype.com	T	-	-	T	-	-	-	-	-	-
+1295981658.269760	Cmkbdp3icVdiknah81	172.16.255.1	10650	184.85.226.161	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	apps.skype.com	T	-	-	T	-	-	-	-	-	-
+1295981658.273055	C9bIvv2TOL7BktKsY3	172.16.255.1	10651	184.85.226.161	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	apps.skype.com	T	-	-	T	-	-	-	-	-	-
+1295981658.273141	C2ZY2E3a2PjwZ3NkE4	172.16.255.1	10652	184.85.226.161	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	apps.skype.com	T	-	-	T	-	-	-	-	-	-
+1295981658.323357	CTpney2nCoOeM7EuIl	172.16.255.1	10648	66.235.143.184	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	smetrics.skype.com	F	-	-	T	FVXcg21IQxZdKwrhv7,FKhRgm255zVLltVzj5	(empty)	CN=smetrics.skype.com,OU=Terms of use at www.verisign.com/rpa (c)05,O=Skype Technologies SA,L=Luxembourg,ST=Luxembourg,C=LU	CN=VeriSign Class 3 Secure Server CA - G2,OU=Terms of use at https://www.verisign.com/rpa (c)09,OU=VeriSign Trust Network,O=VeriSign\\, Inc.,C=US	-	-
+1295981661.023799	C5vulfEPFjW33kU7c	172.16.255.1	10658	109.173.29.34	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	F	-	-	F	-	-	-	-	-	-
+1295981661.199524	CvNMvznJZTyD6wMb2	172.16.255.1	10659	109.255.178.86	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	F	-	-	F	-	-	-	-	-	-
+1295981661.621388	C6ppZ21xKY2978Sw87	172.16.255.1	10661	67.215.65.132	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	pxml10.4publishers.com	F	-	-	T	FfSrrs4ZLi19BSFgV6	(empty)	CN=*.opendns.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)10,OU=GT55236522,O=*.opendns.com,C=US,serialNumber=u1qcmJQFwrxSq31GeQxJEn9-PfyfU0Fp	OU=Equifax Secure Certificate Authority,O=Equifax,C=US	-	-
+1295981661.904363	C6g19M2MoQN6Mu9lz6	172.16.255.1	10665	67.215.65.132	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	s1.4publishers.com	F	-	-	T	FHXhbf3fqITMzLiFQ7	(empty)	CN=*.opendns.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)10,OU=GT55236522,O=*.opendns.com,C=US,serialNumber=u1qcmJQFwrxSq31GeQxJEn9-PfyfU0Fp	OU=Equifax Secure Certificate Authority,O=Equifax,C=US	-	-
+1295981661.903501	C8Dvuo4tI25I6URed1	172.16.255.1	10664	67.215.65.132	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	s1.4publishers.com	F	-	-	T	FlX8o71Iw8JKNjmr2j	(empty)	CN=*.opendns.com,OU=Domain Control Validated - RapidSSL(R),OU=See www.rapidssl.com/resources/cps (c)10,OU=GT55236522,O=*.opendns.com,C=US,serialNumber=u1qcmJQFwrxSq31GeQxJEn9-PfyfU0Fp	OU=Equifax Secure Certificate Authority,O=Equifax,C=US	-	-
+1295981663.173570	CWnUhe3hrg7BgQRUd	172.16.255.1	10671	109.227.83.224	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	F	-	-	F	-	-	-	-	-	-
+1295981663.801709	CRirK13AGyJMF6LFBj	10.0.2.15	2542	207.46.113.78	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FDBqmfbLWVc4dksPa,FEMzTi4Jq8pndE3Kcg,Fr14H12e7WBiruIY5g	(empty)	CN=*.contacts.msn.com,OU=MSN,O=Microsoft,L=Redmond,ST=WA,C=US	CN=Microsoft Secure Server Authority,DC=redmond,DC=corp,DC=microsoft,DC=com	-	-
+1295981648.293958	CUBpgo2LM0GL41vug	172.16.255.1	10627	194.165.188.79	443	-	-	-	-	F	-	-	F	-	-	-	-	-	-
+1295981664.765907	Czba6W2TsM1ml3Hyue	10.0.2.15	2544	207.46.113.78	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FnXsED1hjox0y10Hmj,FksKVr1GmxI9P5cY1k,F5V0d44Z9K0yLjSski	(empty)	CN=*.contacts.msn.com,OU=MSN,O=Microsoft,L=Redmond,ST=WA,C=US	CN=Microsoft Secure Server Authority,DC=redmond,DC=corp,DC=microsoft,DC=com	-	-
+1295981669.904516	C8t74q1ZVy6E16s0Xl	172.16.255.1	10683	109.173.29.34	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	F	-	-	F	-	-	-	-	-	-
+1295981669.956604	CipWTt1WW3r7HoJ58e	172.16.255.1	10682	109.227.83.224	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	F	-	-	F	-	-	-	-	-	-
+1295981669.958090	CfLIaW1pFiudBH3P21	172.16.255.1	10684	109.229.25.126	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	F	-	-	F	-	-	-	-	-	-
+1295981672.039739	Cn0Wzp17r6bMymnYBb	172.16.255.1	10687	109.90.123.126	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	F	-	-	F	-	-	-	-	-	-
+1295981652.563970	CD0TYk1X9aw0HNUlEi	172.16.255.1	10635	194.165.188.76	443	-	-	-	-	F	-	-	F	-	-	-	-	-	-
+1295981652.819696	CV6n3bruUMLkhZ7ah	172.16.255.1	10636	212.8.166.36	443	-	-	-	-	F	-	-	F	-	-	-	-	-	-
+1295981676.006046	Cxdn3s1IcnS1hToKwa	172.16.255.1	10690	109.173.29.34	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	F	-	-	F	-	-	-	-	-	-
+1295981676.042722	CVmITC1xXjVnCFUJc1	172.16.255.1	10689	109.227.83.224	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	F	-	-	F	-	-	-	-	-	-
+1295981654.372620	CXJRwvbGRi5i0Moha	172.16.255.1	10638	130.117.72.100	443	-	-	-	-	F	-	-	F	-	-	-	-	-	-
+1295981693.468449	COyvijCGZcmf9k6t2	172.16.255.1	10691	184.85.226.161	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	-	apps.skype.com	T	-	-	T	-	-	-	-	-	-
+1295981701.225544	Cm4f5OZrJHy4VxjW4	192.168.3.131	52497	72.14.213.120	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	ssl.gstatic.com	F	-	-	T	FRDbJb2uxmedHSeJ59,FgmDRi1NGMwHJfEjh6	(empty)	CN=ssl.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	-	-
+1295981653.216600	CSkzhd21DYizZ5Ndle	172.16.255.1	10637	204.9.163.184	443	-	-	-	-	F	-	-	F	-	-	-	-	-	-
+1295981662.669117	CyQ8ix2tRnN7WPRvcb	172.16.255.1	10667	194.192.199.252	443	-	-	-	-	F	-	-	F	-	-	-	-	-	-
+1295981733.916709	CDyHV44RTbPS5ms0Xa	172.16.255.1	10697	109.173.29.34	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	F	-	-	F	-	-	-	-	-	-
+1295981733.948069	CKzZCs2QBRhor5igh2	172.16.255.1	10696	109.227.83.224	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	F	-	-	F	-	-	-	-	-	-
+1295981760.752627	C869Ni4ro7qEOKJB8h	192.168.3.131	57243	204.14.234.85	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	na4.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981760.990538	CKHydM3Iy14g6Po7s9	192.168.3.131	57243	204.14.234.85	8443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	na4.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981761.822375	Cr6ygn1AUpRFoRDKOc	192.168.3.131	57244	204.14.234.85	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	na4.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981762.059938	CI16lf4sChHO71eFy5	192.168.3.131	57244	204.14.234.85	8443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	na4.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981766.066410	CSGo8n4YaxNTWAg8k	10.0.2.15	2526	65.54.186.19	5443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	F16D6QpmZOCCMx7xj,FkdBmzWwX5NT1Qz9,FLVRNgM9Cwc4hJaEg	(empty)	CN=login.live.com,OU=Passport,O=Microsoft Corporation,street=One Microsoft Way,L=Redmond,ST=Washington,postalCode=98052,C=US,serialNumber=600413485,businessCategory=V1.0\\, Clause 5.(b),jurisdictionST=Washington,jurisdictionC=US	CN=VeriSign Class 3 Extended Validation SSL CA,OU=Terms of use at https://www.verisign.com/rpa (c)06,OU=VeriSign Trust Network,O=VeriSign\\, Inc.,C=US	-	-
+1295981773.877733	C0iHYYiW5uJNiejgj	10.0.2.15	2542	207.46.113.78	5443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FImUHM1rRU9exG75A2,Fzqvw4BOju7hHU92,FcRlwW27xAuk8rk9j4	(empty)	CN=*.contacts.msn.com,OU=MSN,O=Microsoft,L=Redmond,ST=WA,C=US	CN=Microsoft Secure Server Authority,DC=redmond,DC=corp,DC=microsoft,DC=com	-	-
+1295981774.838910	CTMovT13J8SBYnaqYg	10.0.2.15	2544	207.46.113.78	5443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	F	-	-	T	FfsFzC3tgagORXgTt2,FXLows2b4PHuftM6zg,FCq8Ib3EpXmbOwIXtj	(empty)	CN=*.contacts.msn.com,OU=MSN,O=Microsoft,L=Redmond,ST=WA,C=US	CN=Microsoft Secure Server Authority,DC=redmond,DC=corp,DC=microsoft,DC=com	-	-
+1295981790.253710	CeLxMa4YprQt6WKpzc	192.168.3.131	57245	204.14.234.85	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	na4.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981790.253578	CEE4ck2tM0jpNA6ad1	192.168.3.131	57246	204.14.234.85	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	na4.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981790.491648	CKcyIF3BO7nfi8Pc9g	192.168.3.131	57245	204.14.234.85	8443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	na4.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981790.492110	CZQjbW9OtacMhjN3f	192.168.3.131	57246	204.14.234.85	8443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	na4.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981799.660943	CrcSnD2DlcZJ92cxa9	192.168.3.131	57248	204.14.234.85	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	na4.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981799.661940	CC1qub2wHZD9qR4r2e	192.168.3.131	57247	204.14.234.85	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	na4.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981799.901395	CHJ8TG3vmysLAFWqd4	192.168.3.131	57248	204.14.234.85	8443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	na4.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981799.904640	Cu3Uvg4UC4rRqAVO16	192.168.3.131	57247	204.14.234.85	8443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	na4.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981562.242426	C4m1EU3LxrQgeOQ1h2	192.168.3.131	52202	72.14.213.102	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	calendar.google.com	F	-	-	F	FKt8at4pjSiD1JcQJ9,FJPuU43x82US9p8xpl	(empty)	-	-	-	-
+1295981675.277202	CP0Sxf2pECZT4WqtW	172.16.255.1	10688	213.146.189.205	443	-	-	-	-	F	-	-	F	-	-	-	-	-	-
+1295981835.344242	C6Y5Wx39LYKd7suhX4	192.168.3.131	57249	204.14.234.85	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	na4.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981835.581580	CHpGUg4YPSEuukTKP2	192.168.3.131	57249	204.14.234.85	8443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	na4.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981838.191286	CmYpXU2fMbcju55vT3	192.168.3.131	57250	66.235.136.89	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	omtr2.partners.salesforce.com	T	-	-	T	-	-	-	-	-	-
+1295981838.423742	CSeQwv4Y0Zua45bWo2	192.168.3.131	57250	66.235.136.89	8443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	omtr2.partners.salesforce.com	T	-	-	T	-	-	-	-	-	-
+#close	2019-03-06-11-10-14

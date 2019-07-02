@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2019-03-06-11-10-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1295981642.881910	Cb0ELl4TR5oV0hgz2	172.16.255.1	10622	147.31.122.1	443	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 30372
+1295981661.225163	C5vulfEPFjW33kU7c	172.16.255.1	10658	109.173.29.34	443	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 41472
+1295981661.600520	CvNMvznJZTyD6wMb2	172.16.255.1	10659	109.255.178.86	443	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 2051
+1295981663.407143	CWnUhe3hrg7BgQRUd	172.16.255.1	10671	109.227.83.224	443	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 10160
+1295981670.101162	C8t74q1ZVy6E16s0Xl	172.16.255.1	10683	109.173.29.34	443	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 2342
+1295981670.193121	CipWTt1WW3r7HoJ58e	172.16.255.1	10682	109.227.83.224	443	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 49599
+1295981670.208548	CfLIaW1pFiudBH3P21	172.16.255.1	10684	109.229.25.126	443	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 56846
+1295981672.320078	Cn0Wzp17r6bMymnYBb	172.16.255.1	10687	109.90.123.126	443	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 3044
+1295981676.205643	Cxdn3s1IcnS1hToKwa	172.16.255.1	10690	109.173.29.34	443	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 20171
+1295981676.277081	CVmITC1xXjVnCFUJc1	172.16.255.1	10689	109.227.83.224	443	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 14928
+1295981734.118373	CDyHV44RTbPS5ms0Xa	172.16.255.1	10697	109.173.29.34	443	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 11667
+1295981734.186526	CKzZCs2QBRhor5igh2	172.16.255.1	10696	109.227.83.224	443	tcp	SSL	Invalid version late in TLS connection. Packet reported version: 4832
+#close	2019-03-06-11-10-14
