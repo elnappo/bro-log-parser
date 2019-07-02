@@ -5,8 +5,7 @@ from setuptools import setup
 
 setup(
     name='bro-log-parser',
-    version='0.1.0',
-    packages=[''],
+    version='1.0.0',
     url='https://github.com/elnappo/bro-log-parser',
     license='MIT',
     author='Fabian Weisshaar',
@@ -14,9 +13,11 @@ setup(
     description='Simple logfile parser for Bro IDS',
     keywords='logfile parser',
     platforms='any',
+    setup_requires=["pytest-runner"],
+    tests_require=["pytest"],
     py_modules=['brologparse'],
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'Intended Audience :: System Administrators',
         'License :: OSI Approved :: MIT License',
