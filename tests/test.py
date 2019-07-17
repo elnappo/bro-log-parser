@@ -16,7 +16,7 @@ class TestBroLogParse(unittest.TestCase):
             print(log_file)
             with self.subTest(i=log_file):
                 with open(log_file, "r") as f:
-                    for i in brologparse.parse_log(f):
+                    for _ in brologparse.parse_log(f):
                         pass
 
     def test_blackbox_parse_file_log(self):
@@ -25,5 +25,5 @@ class TestBroLogParse(unittest.TestCase):
 
         for log_file in log_files:
             with self.subTest(i=log_file):
-                    for i in brologparse.parse_log_file(log_file):
-                        pass
+                for _ in brologparse.parse_log_file(log_file):
+                    pass
