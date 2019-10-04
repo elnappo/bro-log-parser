@@ -1,5 +1,6 @@
 # Bro log parser
 [![Build Status](https://travis-ci.org/elnappo/bro-log-parser.svg?branch=master)](https://travis-ci.org/elnappo/bro-log-parser)
+![GitHub Action Status](https://github.com/elnappo/bro-log-parser/workflows/Python%20package/badge.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/680163011be7d7903c0f/maintainability)](https://codeclimate.com/github/elnappo/bro-log-parser/maintainability)
 
 Simple logfile parser for [Bro IDS](https://www.bro.org/). This library parses and transforms entries 
